@@ -6,12 +6,8 @@ function NavBar() {
     <>
       <nav className="fixed w-full z-20 top-0 left-0 bg-[#000614] z-[30]">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
-          <a href="https://flowbite.com/" className="flex items-center">
-            <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8 mr-3"
-              alt="Flowbite Logo"
-            />
+          <a href="#" className="flex items-center">
+            <Image src='/Q.svg' alt="FedEx" width={100} height={100} />
           </a>
           <div className="flex md:order-2">
             <button
