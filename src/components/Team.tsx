@@ -1,33 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { Members } from "@/utils/constantUtils";
 
 function Team() {
-  const Members = [
-    {
-      name: "Ishema Hugues",
-      role: "Project Manager",
-      paragraph:
-        "The digital landscape is ever-evolving. Partner with us to stay ahead of the curve, continuously The digital landscape is ever-evolving.",
-    },
-    {
-      name: "Ishema Hugues",
-      role: "Project Manager",
-      paragraph:
-        "The digital landscape is ever-evolving. Partner with us to stay ahead of the curve, continuously The digital landscape is ever-evolving.",
-    },
-    {
-      name: "Ishema Hugues",
-      role: "Project Manager",
-      paragraph:
-        "The digital landscape is ever-evolving. Partner with us to stay ahead of the curve, continuously The digital landscape is ever-evolving.",
-    },
-    {
-      name: "Ishema Hugues",
-      role: "Project Manager",
-      paragraph:
-        "The digital landscape is ever-evolving. Partner with us to stay ahead of the curve, continuously The digital landscape is ever-evolving.",
-    },
-  ];
 
   return (
     <>
