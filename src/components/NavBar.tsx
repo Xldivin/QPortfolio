@@ -4,7 +4,7 @@ import Image from "next/image";
 function NavBar() {
   return (
     <>
-      <nav className="fixed w-full z-20 top-0 left-0 bg-[#000614]">
+      <nav className="fixed w-full z-20 top-0 left-0 bg-[#000614] z-[30]">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
           <a href="https://flowbite.com/" className="flex items-center">
             <img

@@ -40,7 +40,7 @@ function Review() {
         </div>
         <div className="flex gap-[2rem] items-center justify-center mt-[4rem]">
           {Members?.map((data, index) => (
-            <div className="w-[20rem] h-[20rem] rounded-lg shadow bg-[#000]">
+            <div key={index} className="w-[20rem] h-[20rem] rounded-lg shadow bg-[#000]">
               <div className="box h-[10rem] overflow-y-scroll bg-[#fff]">
                 <div className="flex items-center justify-center space-x-1 mt-[2rem]">
                   <svg

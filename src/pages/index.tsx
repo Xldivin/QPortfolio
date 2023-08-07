@@ -4,6 +4,8 @@ import ServicePage from '@/components/ServicePage';
 import Work from '@/components/Work';
 import Business from '@/components/Business';
 import Review from '@/components/Review';
+import Contact from '@/components/Contact';
+import Team from '@/components/Team';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Work />
       <Business />
       <Review />
+      <Contact />
+      <Team />
     </main>
   )
 };
