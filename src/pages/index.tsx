@@ -6,6 +6,7 @@ import Business from '@/components/Business';
 import Review from '@/components/Review';
 import Contact from '@/components/Contact';
 import Team from '@/components/Team';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Review />
       <Contact />
       <Team />
+      <Footer />
     </main>
   )
 };

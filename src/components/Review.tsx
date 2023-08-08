@@ -5,12 +5,12 @@ import { Members } from "@/utils/constantUtils";
 function Review() {
   return (
     <>
-      <div className="w-screen h-screen bg-[#000614]">
-      <div className="flex justify-start relative top-[25rem]">
+      <div className="w-screen h-[70rem] bg-[#000614]">
+      <div className="flex justify-start relative top-[20rem]">
         <Image src="/Vertical.svg" alt="Dot" width={30} height={100} />
       </div>
-        <div className="flex items-center justify-center flex-col mt-[-8rem]">
-          <p className="text-white text-3xl">Our Beautiful work</p>
+        <div className="flex items-center justify-center flex-col mt-[-18rem]">
+          <p className="text-white text-3xl">Reviews from Clients</p>
           <Image src="/Line.svg" alt="line" width={250} height={50} />
         </div>
         <div className="mt-[3rem]">
@@ -19,7 +19,7 @@ function Review() {
             Get in touch with us today and let's build the future together.
           </p>
         </div>
-        <div className="flex gap-[2rem] items-center justify-center mt-[4rem]">
+        <div className="flex gap-[4rem] items-center justify-center mt-[4rem] flex-wrap">
           {Members?.map((data, index) => (
             <div key={index} className="w-[20rem] h-[20rem] rounded-lg shadow bg-[#000]">
               <div className="box h-[10rem] overflow-y-scroll bg-[#fff]">
