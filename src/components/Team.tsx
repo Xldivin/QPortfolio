@@ -26,7 +26,7 @@ function Team() {
         </div>
         <div className="flex items-center justify-center mt-[-13rem] flex-wrap gap-[5rem]">
           {Members?.map((data, index) => (
-            <div className="w-[35rem] h-[13rem] bg-[#000] flex justify-around rounded-lg">
+            <div key={index} className="w-[35rem] h-[13rem] bg-[#000] flex justify-around rounded-lg">
               <Image
                 src="/Team.svg"
                 alt="Dot"

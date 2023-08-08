@@ -51,7 +51,7 @@ function HomePage() {
           </button>
         </div>
         <div>
-          <p className="text-[#0047FF] text-3xl w-[20rem] ml-[2rem]">
+          <p className="text-[#0047FF] text-3xl w-[23rem] ml-[2rem] font-bold">
             Unleash the Power of Blockchain and Beyond!
           </p>
           <div className="relative">
