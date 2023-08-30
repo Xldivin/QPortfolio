@@ -22,7 +22,15 @@ function Work() {
 
     <Swiper
       spaceBetween={5}
-      slidesPerView={3}
+      slidesPerView={1}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        640: {
+          slidesPerView: 3,
+        },
+      }}
     >
       <SwiperSlide>
       <div className="ml-[10rem] mt-[2rem]">

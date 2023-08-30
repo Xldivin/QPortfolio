@@ -5,27 +5,27 @@ function Business() {
   return (
     <div className="w-screen h-screen bg-[#000614]">
       
-      <div className="flex items-center justify-center flex-col mt-[-8rem]">
+      <div className="flex items-center justify-center flex-col mt-[2rem] sm:mt-[-8rem]">
         <p className="text-white text-3xl">let's talk money</p>
         <Image src="/Line.svg" alt="line" width={250} height={50} />
       </div>
       <div className=" flex items-center justify-center mt-[8rem]">
-        <div className="bg-[#000] w-[70rem] h-[35rem] rounded-lg border border-[#0047FF] flex justify-around">
-          <div className="mt-[1rem] relative">
+        <div className="bg-[#000] w-[25rem] ml-[3rem] sm:w-[70rem] h-[55rem] sm:h-[35rem] rounded-lg border border-[#0047FF] flex flex-col sm:flex-row justify-around">
+          <div className="mt-[1rem] relative w-[24.8rem] sm:w-[35rem]">
             <Image src="/Rectangle.svg" alt="line" width={570} height={50} />
             <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl">
-              <p className="ml-[-7rem] font-bold">Start woking with us</p>
-              <p className="ml-[-7rem] mt-[2rem]">
+              <p className="ml-[-5rem] sm:ml-[-7rem] font-bold">Start woking with us</p>
+              <p className="ml-[-5rem] sm:ml-[-7rem] mt-[2rem]">
                 At Boost-Q our main goal is to help startups deliver their
                 products to their end target users in simple yet beautiful
                 manner.
               </p>
-              <p className="flex justify-end relative top-[13rem] text-white text-5xl font-bold">
+              <p className="flex justify-end relative top-[6rem] sm:top-[13rem] text-white text-5xl font-bold">
                 $ 500
               </p>
             </div>
           </div>
-          <div className="mt-[2rem]">
+          <div className="mt-[2rem] px-[1rem]">
             <p className="text-white text-xl">Unique Product</p>
             <p className="text-white mt-[1.5rem] w-[25rem]">
               We develop a product in the shortest time you than would imagine
@@ -79,7 +79,7 @@ function Business() {
             </ul>
             <button
               type="button"
-              className="bg-[#0047FF] font-medium w-[25rem] rounded-lg text-sm px-4 py-2 text-center mt-[2rem] text-[#fff]"
+              className="bg-[#0047FF] font-medium w-[23rem] sm:w-[25rem] rounded-lg text-sm px-4 py-2 text-center mt-[2rem] text-[#fff]"
             >
               Hire us
             </button>

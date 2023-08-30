@@ -11,15 +11,15 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <main>
-      <NavBar />
-      <HomePage />
+      {/* <NavBar />
+      <HomePage /> */}
       <ServicePage />
       <Work />
       <Business />
       <Review />
-      <Contact />
+      {/* <Contact />
       <Team />
-      <Footer />
+      <Footer /> */}
     </main>
   )
 };
